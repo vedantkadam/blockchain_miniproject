@@ -7,7 +7,7 @@ Marketplace has dependencies on multiple technologies.
 ## To run the app
 1. run `npm install` to install dependencies
 
-2. Then migrate a contract to Ganache, contract can be found in the `contracts` folder. It's called `CourseMarketplace.sol`
+2. Then migrate a contract to Ganache, contract can be found in the `contracts` folder. It's called `CourseMarketplace.sol` run the command `truffle compile`
 
 * To migrate the contract run `truffle migrate` in the terminal while Ganache network is setup and running.
 
