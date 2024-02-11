@@ -13,8 +13,6 @@ Marketplace has dependencies on multiple technologies.
 
 * Do not forget to link `trufle-config.js` with Ganache, just go to `config` and click `Add Project`
 
-* `keys.json` must be created if you want to deploy to Ropsten, if not, just remove import of `keys.json` from `trufle-config.js` and also comment out `ropsten` configuration
-
 3. Now everything is setup and you can test out the app.
 
 * Run `npm run dev` in the terminal. App will run at `localhost:3000`
