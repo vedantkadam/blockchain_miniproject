@@ -83,6 +83,16 @@ export default function Curriculum({ locked, courseState, isLoading }) {
                           </Link>
                         )}
                       </td>
+                      <td className="px-6 py-4 text-sm font-medium text-right whitespace-nowrap">
+                      <Link href="https://drive.google.com/file/d/1R0Dey3R5RPoarPYaQZWa_dBFM8RDz3FP/view?usp=sharing">
+                                <a className="text-blue-600 hover:text-blue-900">
+                                  Download your Book
+                                </a>
+                              </Link>
+                        
+                       
+                      </td>
+
                     </tr>
                   ))}
                 </tbody>
