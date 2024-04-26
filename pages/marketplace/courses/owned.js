@@ -54,7 +54,7 @@ export default function OwnedCourses({courses}) {
             <Button
               onClick={() => router.push(`/courses/${course.slug}`)}
             >
-              Watch the course
+              View the book
             </Button>
           </OwnedCourseCard>
         )}
